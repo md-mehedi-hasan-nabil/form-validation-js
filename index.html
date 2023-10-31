@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h2 class="title">Create an account</h2>
+        <div class="input-container">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter username" />
+        </div>
+        <p class="error name">Name field is required</p>
+
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Enter email" />
+        </div>
+        <p class="error email">Email field is required</p>
+
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Enter password" />
+        </div>
+        <p class="error password">Password field is required</p>
+
+        <div class="input-container">
+          <label for="repeatPassword">Repeat Password</label>
+          <input
+            type="password"
+            name="repeatPassword"
+            placeholder="Enter password again"
+          />
+        </div>
+        <p class="error repeatPassword">Password is not match.</p>
+
+        <div class="input-container">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
