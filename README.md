@@ -2,10 +2,10 @@
 
 🔍 It ensures all user inputs are correct before submission, with features like:
 
-✅ Real-time error feedback
-✅ Custom error messages
-✅ Password checks
-✅ Email verification
+✅ Real-time error feedback \
+✅ Custom error messages \
+✅ Password checks \
+✅ Email verification 
 
 💡It ensures all user inputs are correct before submission, making sure your data is accurate and secure.
 
