@@ -1,6 +1,7 @@
 ### 🚀JavaScript Form Validation project! 💻
 
 🔍 It ensures all user inputs are correct before submission, with features like:
+
 ✅ Real-time error feedback
 ✅ Custom error messages
 ✅ Password checks
